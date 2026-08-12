@@ -26,7 +26,7 @@ $$ dS_t = r S_t dt + \sigma S_t dW_t $$
 
 The solution to this stochastic differential equation is: 
 
-$$ S_T = S_0 \cdot \exp\left(\left(r - \frac{\sigma^2}{2}\right)T + \sigma \sqrt{T} Z \right) $$
+$$ S_T = S_0 \cdot \exp\left((r - \frac{\sigma^2}{2})T + \sigma \sqrt{T} Z \right) $$
 
 Where:
 - $S_T$ = asset price at maturity
