@@ -1,3 +1,20 @@
+# Monte Carlo Asset Pricing Simulator
+
+A Monte Carlo simulator for pricing European options, implementing Geometric Brownian Motion with
+antithetic variates for variance reduction. The simulator models 10,000+ paths and converges within
+2% of the Black-Scholes price. Includes both Python and C++ implementations for performance 
+comparison.
+
+## Project Overview
+
+Option pricing is a fundamental problem in quantitative finance. While the Black-Scholes model 
+provides closed-form solutions for European options, many exotic options lack analytical solutions. 
+Monte Carlo simulation offers a flexible alternative by simulating many possible future price paths
+and averaging the payoffs. 
+
+This project demonstrates the application of Monte Carlo simulation to European option pricing and
+explores variance reduction techniques to improve convergence efficiency. 
+
 ## Mathematical Background
 
 ### Asset Price Dynamics: Geometric Brownian Motion
